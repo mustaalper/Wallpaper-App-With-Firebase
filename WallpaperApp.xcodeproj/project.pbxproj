@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C3CD50428E1AE2F008A3CD7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3CD50328E1AE2F008A3CD7 /* LoginViewController.swift */; };
+		0CB0F48828E8766F009669F8 /* PinterestLayoutDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB0F48728E8766E009669F8 /* PinterestLayoutDelegate.swift */; };
+		0CB559CC28E1D44B006C7A2D /* WallpaperCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB559CB28E1D44B006C7A2D /* WallpaperCollectionViewCell.swift */; };
+		0CB575D828EB12DE00EC3934 /* WallpaperDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB575D728EB12DE00EC3934 /* WallpaperDetailViewController.swift */; };
+		0CBCFF4D28E0E02200283F77 /* WallpaperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBCFF4C28E0E02200283F77 /* WallpaperViewController.swift */; };
+		0CBCFF4F28E0E02E00283F77 /* FavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBCFF4E28E0E02E00283F77 /* FavViewController.swift */; };
+		0CF2C89928E0D00A00F88ED5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF2C89828E0D00A00F88ED5 /* AppDelegate.swift */; };
+		0CF2C89B28E0D00A00F88ED5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF2C89A28E0D00A00F88ED5 /* SceneDelegate.swift */; };
+		0CF2C89D28E0D00A00F88ED5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF2C89C28E0D00A00F88ED5 /* ViewController.swift */; };
+		0CF2C8A028E0D00A00F88ED5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CF2C89E28E0D00A00F88ED5 /* Main.storyboard */; };
+		0CF2C8A228E0D00C00F88ED5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CF2C8A128E0D00C00F88ED5 /* Assets.xcassets */; };
+		0CF2C8A528E0D00C00F88ED5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CF2C8A328E0D00C00F88ED5 /* LaunchScreen.storyboard */; };
+		0CF2C8AD28E0D0ED00F88ED5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0CF2C8AC28E0D0ED00F88ED5 /* GoogleService-Info.plist */; };
+		1A775972B0FD9810B32BC4E8 /* Pods_WallpaperApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F66995F6DA4B8667C19841C9 /* Pods_WallpaperApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C3CD50328E1AE2F008A3CD7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		0CB0F48728E8766E009669F8 /* PinterestLayoutDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestLayoutDelegate.swift; sourceTree = "<group>"; };
+		0CB559CB28E1D44B006C7A2D /* WallpaperCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperCollectionViewCell.swift; sourceTree = "<group>"; };
+		0CB575D728EB12DE00EC3934 /* WallpaperDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperDetailViewController.swift; sourceTree = "<group>"; };
+		0CBCFF4C28E0E02200283F77 /* WallpaperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperViewController.swift; sourceTree = "<group>"; };
+		0CBCFF4E28E0E02E00283F77 /* FavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavViewController.swift; sourceTree = "<group>"; };
+		0CF2C89528E0D00A00F88ED5 /* WallpaperApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WallpaperApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CF2C89828E0D00A00F88ED5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0CF2C89A28E0D00A00F88ED5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0CF2C89C28E0D00A00F88ED5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0CF2C89F28E0D00A00F88ED5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0CF2C8A128E0D00C00F88ED5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0CF2C8A428E0D00C00F88ED5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0CF2C8A628E0D00C00F88ED5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CF2C8AC28E0D0ED00F88ED5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CC1733695A6EE7C8D17443AA /* Pods-WallpaperApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WallpaperApp.release.xcconfig"; path = "Target Support Files/Pods-WallpaperApp/Pods-WallpaperApp.release.xcconfig"; sourceTree = "<group>"; };
+		F3EA243A56A09DF55FBE2AB0 /* Pods-WallpaperApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WallpaperApp.debug.xcconfig"; path = "Target Support Files/Pods-WallpaperApp/Pods-WallpaperApp.debug.xcconfig"; sourceTree = "<group>"; };
+		F66995F6DA4B8667C19841C9 /* Pods_WallpaperApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WallpaperApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CF2C89228E0D00A00F88ED5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A775972B0FD9810B32BC4E8 /* Pods_WallpaperApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CF2C88C28E0D00A00F88ED5 = {
+			isa = PBXGroup;
+			children = (
+				0CF2C89728E0D00A00F88ED5 /* WallpaperApp */,
+				0CF2C89628E0D00A00F88ED5 /* Products */,
+				7624C64499F8BCDBFA39EFC9 /* Pods */,
+				9B6581D2BE666525F65D035B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0CF2C89628E0D00A00F88ED5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0CF2C89528E0D00A00F88ED5 /* WallpaperApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0CF2C89728E0D00A00F88ED5 /* WallpaperApp */ = {
+			isa = PBXGroup;
+			children = (
+				0CF2C89828E0D00A00F88ED5 /* AppDelegate.swift */,
+				0CF2C89A28E0D00A00F88ED5 /* SceneDelegate.swift */,
+				0CB0F48728E8766E009669F8 /* PinterestLayoutDelegate.swift */,
+				0C3CD50328E1AE2F008A3CD7 /* LoginViewController.swift */,
+				0CF2C89C28E0D00A00F88ED5 /* ViewController.swift */,
+				0CBCFF4E28E0E02E00283F77 /* FavViewController.swift */,
+				0CB559CB28E1D44B006C7A2D /* WallpaperCollectionViewCell.swift */,
+				0CBCFF4C28E0E02200283F77 /* WallpaperViewController.swift */,
+				0CB575D728EB12DE00EC3934 /* WallpaperDetailViewController.swift */,
+				0CF2C89E28E0D00A00F88ED5 /* Main.storyboard */,
+				0CF2C8A128E0D00C00F88ED5 /* Assets.xcassets */,
+				0CF2C8A328E0D00C00F88ED5 /* LaunchScreen.storyboard */,
+				0CF2C8A628E0D00C00F88ED5 /* Info.plist */,
+				0CF2C8AC28E0D0ED00F88ED5 /* GoogleService-Info.plist */,
+			);
+			path = WallpaperApp;
+			sourceTree = "<group>";
+		};
+		7624C64499F8BCDBFA39EFC9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F3EA243A56A09DF55FBE2AB0 /* Pods-WallpaperApp.debug.xcconfig */,
+				CC1733695A6EE7C8D17443AA /* Pods-WallpaperApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9B6581D2BE666525F65D035B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F66995F6DA4B8667C19841C9 /* Pods_WallpaperApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0CF2C89428E0D00A00F88ED5 /* WallpaperApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CF2C8A928E0D00C00F88ED5 /* Build configuration list for PBXNativeTarget "WallpaperApp" */;
+			buildPhases = (
+				2D78C592BC03B5B6A104C42D /* [CP] Check Pods Manifest.lock */,
+				0CF2C89128E0D00A00F88ED5 /* Sources */,
+				0CF2C89228E0D00A00F88ED5 /* Frameworks */,
+				0CF2C89328E0D00A00F88ED5 /* Resources */,
+				FA09B445A1A171C2FD169101 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WallpaperApp;
+			productName = WallpaperApp;
+			productReference = 0CF2C89528E0D00A00F88ED5 /* WallpaperApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0CF2C88D28E0D00A00F88ED5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					0CF2C89428E0D00A00F88ED5 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 0CF2C89028E0D00A00F88ED5 /* Build configuration list for PBXProject "WallpaperApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0CF2C88C28E0D00A00F88ED5;
+			productRefGroup = 0CF2C89628E0D00A00F88ED5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0CF2C89428E0D00A00F88ED5 /* WallpaperApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0CF2C89328E0D00A00F88ED5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CF2C8A528E0D00C00F88ED5 /* LaunchScreen.storyboard in Resources */,
+				0CF2C8AD28E0D0ED00F88ED5 /* GoogleService-Info.plist in Resources */,
+				0CF2C8A228E0D00C00F88ED5 /* Assets.xcassets in Resources */,
+				0CF2C8A028E0D00A00F88ED5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D78C592BC03B5B6A104C42D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WallpaperApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA09B445A1A171C2FD169101 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WallpaperApp/Pods-WallpaperApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WallpaperApp/Pods-WallpaperApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WallpaperApp/Pods-WallpaperApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CF2C89128E0D00A00F88ED5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C3CD50428E1AE2F008A3CD7 /* LoginViewController.swift in Sources */,
+				0CF2C89D28E0D00A00F88ED5 /* ViewController.swift in Sources */,
+				0CB575D828EB12DE00EC3934 /* WallpaperDetailViewController.swift in Sources */,
+				0CF2C89928E0D00A00F88ED5 /* AppDelegate.swift in Sources */,
+				0CF2C89B28E0D00A00F88ED5 /* SceneDelegate.swift in Sources */,
+				0CBCFF4F28E0E02E00283F77 /* FavViewController.swift in Sources */,
+				0CB559CC28E1D44B006C7A2D /* WallpaperCollectionViewCell.swift in Sources */,
+				0CBCFF4D28E0E02200283F77 /* WallpaperViewController.swift in Sources */,
+				0CB0F48828E8766F009669F8 /* PinterestLayoutDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0CF2C89E28E0D00A00F88ED5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CF2C89F28E0D00A00F88ED5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0CF2C8A328E0D00C00F88ED5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CF2C8A428E0D00C00F88ED5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0CF2C8A728E0D00C00F88ED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0CF2C8A828E0D00C00F88ED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0CF2C8AA28E0D00C00F88ED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3EA243A56A09DF55FBE2AB0 /* Pods-WallpaperApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UB96AD9NKQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WallpaperApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mustafaalperaydin.WallpaperApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0CF2C8AB28E0D00C00F88ED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC1733695A6EE7C8D17443AA /* Pods-WallpaperApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UB96AD9NKQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WallpaperApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mustafaalperaydin.WallpaperApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CF2C89028E0D00A00F88ED5 /* Build configuration list for PBXProject "WallpaperApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CF2C8A728E0D00C00F88ED5 /* Debug */,
+				0CF2C8A828E0D00C00F88ED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CF2C8A928E0D00C00F88ED5 /* Build configuration list for PBXNativeTarget "WallpaperApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CF2C8AA28E0D00C00F88ED5 /* Debug */,
+				0CF2C8AB28E0D00C00F88ED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0CF2C88D28E0D00A00F88ED5 /* Project object */;
+}
